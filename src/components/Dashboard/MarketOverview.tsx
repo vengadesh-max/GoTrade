@@ -30,8 +30,8 @@ const MarketOverviewItem: React.FC<MarketOverviewItemProps> = ({ title, value, c
 
 const MarketOverview: React.FC = () => {
   const marketItems = [
-    { title: 'NIFTY 50', value: formatCurrency(19850.75), change: 1.34, period: 'Today' },
-    { title: 'SENSEX', value: formatCurrency(65351.18), change: 0.98, period: 'Today' },
+    { title: 'NIFTY 50', value: 19850.75, change: 1.34, period: 'Today' },
+    { title: 'SENSEX', value: 65351.18, change: 0.98, period: 'Today' },
     { title: 'Bank NIFTY', value: '44,153.02', change: 0.78, period: 'Today' },
     { title: 'India VIX', value: '14.76', change: -0.45, period: 'Today' },
   ];
